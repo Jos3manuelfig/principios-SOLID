@@ -1,3 +1,16 @@
+"""
+
+El principio SOLID que se aplica aquí es el Principio de Abierto/Cerrado (Open/Closed Principle),
+ que indica que las clases deben estar abiertas para extensión, pero cerradas para modificación.
+
+Aplicación en el código:
+La clase Calculator sigue este principio ya que puede extenderse para soportar nuevas operaciones sin necesidad de
+modificar su código original.Esto se logra mediante el uso de la clase abstracta Operation y la
+posibilidad de añadir nuevas operaciones como Addition, Substraction, etc., usando el método add_operation().
+Si quisieras agregar una nueva operación (como Modulo o Exponentiation), simplemente crearías una nueva clase que
+ implemente Operation y la agregarías al diccionario de operaciones, sin modificar la clase Calculator en sí.
+"""
+
 from abc import ABC, abstractmethod
 
 
