@@ -1,6 +1,12 @@
 """
 Principio SOLID de Sustitución de Liskov (Liskov 
 Substitution Principle, LSP)
+El principio de sustitución de Liskov (Liskov Substitution Principle, LSP) es el tercer principio de SOLID y establece que:
+
+"Los objetos de una clase derivada deben poder reemplazar a los objetos de su clase base sin alterar el correcto funcionamiento del programa."
+
+En otras palabras, una subclase debe poder ser utilizada en lugar de su clase base sin que el programa tenga comportamientos inesperados o erróneos. Para cumplir con este principio, las subclases no deben alterar el comportamiento esencial de los métodos heredados de la clase base.
+
 
 """ """
 Ejercicio
