@@ -1,5 +1,4 @@
-# Principio SOLID de Sustitución de Liskov (Liskov
-# Substitution Principle, LSP)
+# Principio SOLID de segregación de interfaces que estable que ISP, ningún cliente debería de verde forzado a depender de interfaces que No utiliza 
 
 
 from abc import ABC, abstractmethod
