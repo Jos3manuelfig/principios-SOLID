@@ -1,7 +1,10 @@
 # Principio SOLID de Inversión de Dependencias (Dependency
 # Inversion Principle, DIP)
 # Sin DIP
+1. Los módulos de alto nivel no deben depender de los módulos de bajo nivel. Ambos deben depender de abstracciones (interfaces o clases abstractas).
 
+
+2. Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
 
 from abc import ABC, abstractmethod
 
